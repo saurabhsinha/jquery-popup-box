@@ -51,7 +51,7 @@ If there are any CSS class name conflicts, they can be overridden.
 
 ## Credits
 
-jQuery PopBox developed by saurabh sinha http://https://www.facebook.com/saurabh.nitc
+jQuery PopBox developed by saurabh sinha https://www.facebook.com/saurabh.nitc
 
 
 ## License
