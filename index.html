@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv='Content-type' content='text/html; charset=utf-8'>
+	<title>PopBox</title>
+	<link rel='stylesheet' href='popbox.css' type='text/css' media='screen' charset='utf-8'>
+	<script type='text/javascript' charset='utf-8' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/	jquery.min.js'></script>
+	<script type='text/javascript' charset='utf-8' src='popbox.js'></script>
+	<script type='text/javascript' charset='utf-8'>
+		$(document).ready(function(){
+		$('.popbox').popbox();
+	});
+	</script>
+</head>
+<body>
+	<h1>PopBox</h1>
+	<div class='popbox'>
+	<a class='open' href='#'>
+		<img src='plus.png' style='width:14px;position:relative;'> Click Here!
+	</a>
+		<div class='collapse'>
+			<div class='box'>
+				<div class='arrow'></div>
+				<div class='arrow-border'></div>
+				<form action="" method="post" id="subForm">
+					<p><small>Please complete the form... <a href="" target="_blank"></a></small></p>
+					<div class="input">
+						<input type="text" name="cm-name" id="name" placeholder="Name" />
+					</div>
+					<div class="input">
+						<input type="text" name="cm-nklki-nklki" id="nklki-nklki" placeholder="Email" />
+					</div>
+					<input type="submit" value="Get In Touch" /> <a href="#" class="close">Cancel</a>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<p>jQuery PopBox is a simple, HighRise inspired balloon UI element.</p>
+
+	<footer>
+	Developed by <a href="http://twitter.com/saurabh_nitc10">Saurabh sinha</a></a>
+	</footer>
+</body>
+</html>
