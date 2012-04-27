@@ -1,3 +1,7 @@
+#demo
+
+http://andromeda.nitc.ac.in/~saurabh/popbox/
+
 # jQuery PopBox
 
 jQuery PopBox is a simple balloon UI element.
