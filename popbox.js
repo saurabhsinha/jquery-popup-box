@@ -1,3 +1,9 @@
+/**
+*.@js written for the popup box
+* @author saurabh kumar <saurabh.nitc10@gmail.com>
+* @copyright Copyright (c) 2012,saurabh kumar
+* @license http://www.gnu.org/licenses/gpl.html GNU General Public License 
+*/
 (function(){
 
 	$.fn.popbox = function(options){
